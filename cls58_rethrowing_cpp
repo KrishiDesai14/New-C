@@ -1,0 +1,42 @@
+
+
+int main() {
+
+    try
+    {
+        try
+        {
+            int no1, no2, div;
+
+            cout<<endl<<"Enter Number 1=> ";
+            cin>>no1;
+
+            cin<<endl<<"Enter number 2=> ";
+            cin>>no2;
+
+            if(no2==0)
+            {
+                throw o;
+                else
+                {
+                    div= no1/no2;
+                    cout<<endl<<"\n Division=> "<<div
+
+                }
+            }
+
+            catch(int x)
+            {
+                cout<<endl<<" why you enter 0, division by 0 is not possible "
+            }
+        }
+    }
+        catch ( int x)
+        {
+            cout<<endl<<"please enter other than 0"
+        }
+
+        return 0;
+    
+    
+}
